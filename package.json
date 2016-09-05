@@ -1,0 +1,24 @@
+{
+  "name": "198062-mishka",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Личный проект «Мишка» от HTML Academy",
+  "author": "Андрей Островский",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:htmlacademy-adaptive/198062-mishka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htmlacademy-adaptive/198062-mishka/issues"
+  },
+  "homepage": "https://github.com/htmlacademy-adaptive/198062-mishka",
+  "devDependencies": {
+    "lintspaces-cli": "0.4.0"
+  },
+  "scripts": {
+    "test": "lintspaces -e .editorconfig -i 'js-comments' -i 'html-comments' *.html {less,sass,postcss}/*.* {less,sass,postcss}/**/*.* *.{js,json} js/*.{js,json} js/**/*.{js,json}"
+  },
+  "engines": {
+    "node": "6.5"
+  }
+}
