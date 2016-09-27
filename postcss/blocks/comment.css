@@ -1,0 +1,18 @@
+.comment__text {
+  color: $grey;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.comment__name {
+  font-size: 18px;
+  font-family: $bold;
+}
+
+.comment__link {
+  color: $grey;
+  line-height: 30px;
+  margin-bottom: 30px;
+  display: block;
+  font-size: 15px;
+}

@@ -1,0 +1,11 @@
+.modal-window {
+  position: absolute;
+  background-color: #ffffff;
+  width: 320px;
+  height: 335px;
+  border-top: 1px solid #c7c7c7;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  outline: $outline;
+  display: none;
+}

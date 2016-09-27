@@ -3,23 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Форма заказа|Подарки ручной работы</title>
 </head>
 <body>
   <!-- HEADER-START -->
   <header class="page-header">
     <div class="page-header__logo">
-      <img src="img/logo.png" alt="Mishka" width="86" height="35">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Mishka" width="86" height="35">
+      </a>
     </div>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <img src="img/hamburger.png" alt="Меню" width="20" height="14">
       </button>
       <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="#">Каталог товаров</a></li>
-        <li class="main-nav__item"><a href="#">Вязание на заказ</a></li>
-        <li class="main-nav__item"><a href="#">Поиск по сайту</a></li>
-        <li class="main-nav__item"><a href="#">Корзина: пока пуста</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="catalog.html">Каталог товаров</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Вязание на заказ</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Поиск по сайту</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Корзина: пока пуста</a></li>
       </ul>
     </nav>
   </header>
@@ -27,7 +30,7 @@
 
   <!-- MAIN-START -->
   <main>
-    <h1 class="page-title  page-title--form-mobile">Вязание на заказ</h1>
+    <h1 class="page-title  page-title--form">Вязание на заказ</h1>
     <p class="order-description">
       Мы будем рады воплотить в жизнь
       ваши пожелания! Заполните простую форму
@@ -102,7 +105,7 @@
   <!-- MAIN-END -->
 
   <!-- FOOTER-START -->
-  <footer>
+  <footer class="page-footer">
   <ul class="social-list">
     <li class="social-list__item  social-list__item--insta">
       <a class="social-list__link" href="#">Instagram</a>

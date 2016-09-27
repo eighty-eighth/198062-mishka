@@ -1,0 +1,28 @@
+.video-block {
+  outline: $outline;
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+
+.video-block__wrapper {
+  border: 1px solid #ececec;
+}
+
+.video-block__title {
+  width: 130px;
+  font-size: 17px;
+  margin: 0;
+  padding: 25px 0;
+  font-family: $bold;
+}
+
+.video-block__description {
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 30px;
+}
+
+.video-block__order {
+  @mixin btn;
+}

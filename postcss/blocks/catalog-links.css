@@ -1,0 +1,23 @@
+.catalog-links__item {
+  min-height: 103px;
+  padding-top: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 30px;
+  display: block;
+  box-sizing: border-box;
+
+  &--light {
+    background-color: #63d1bb;
+  }
+
+  &--dark {
+    background-color: #56c3b2;
+  }
+}
+
+.catalog-links__title {
+  margin: 0;
+  width: 105px;
+  line-height: 24px;
+}

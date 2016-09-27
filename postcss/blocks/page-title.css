@@ -1,0 +1,16 @@
+.page-title {
+  font-family: $bold;
+  font-size: 27px;
+  width: 245px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+
+  &--catalog,
+  &--form {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    background-color: #f1f1f1;
+    width: auto;
+  }
+}

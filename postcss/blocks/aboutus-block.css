@@ -1,0 +1,32 @@
+.aboutus-block {
+  padding: 30px;
+  outline: $outline;
+}
+
+.aboutus-block__title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.aboutus-block__list {
+  padding: 0;
+  list-style: none;
+  font-family: $bold;
+}
+
+.aboutus-block__item {
+  font-size: 17px;
+  font-family: $bold;
+  padding-top: 80px;
+
+  &--flower,
+  &--heart {
+    width: 185px;
+  }
+
+  &--money,
+  &--rope,
+  &--gift {
+    width: 215px;
+  }
+}

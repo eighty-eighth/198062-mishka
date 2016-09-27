@@ -1,0 +1,48 @@
+.week-product {
+  padding: 30px;
+  outline: $outline;
+}
+
+.week-product__title {
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+  text-align: left;
+  font-family: $bold;
+}
+
+.week-product__category-title {
+  font-size: 17px;
+  color: #63d1bb;
+  text-align: left;
+  font-family: $bold;
+}
+
+.week-product__description {
+  color: $grey;
+}
+
+.week-product__options-table {
+  color: $grey;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 28px;
+}
+
+.week-product__options-table__cell {
+  border-bottom: 1px solid #ececec;
+  padding: 10px 0;
+}
+
+.week-product__item-price {
+  font-size: 17px;
+  color: $grey;
+  font-family: $bold;
+  display: block;
+  text-align: center;
+}
+
+.week-product__order {
+  @mixin btn;
+  margin-top: 25px;
+}
