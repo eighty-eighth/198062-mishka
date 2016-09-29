@@ -1,0 +1,7 @@
+.order-description {
+  padding: 30px;
+  margin: 0;
+  font-size: $order-description-fontsize;
+  line-height: 24px;
+  color: $basic-color;
+}

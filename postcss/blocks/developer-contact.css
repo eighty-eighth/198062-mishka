@@ -1,0 +1,9 @@
+.developer-contact {
+  padding-top: 20px;
+}
+
+.developer-contact__text {
+  font-weight: 700;
+  font-size: $developer-contact-fontsize;
+  font-style: normal;
+}

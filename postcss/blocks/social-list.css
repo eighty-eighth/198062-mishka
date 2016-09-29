@@ -1,0 +1,12 @@
+.social-list {
+  padding: 0;
+  padding-bottom: 24px;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.social-list__item {
+  display: inline;
+}

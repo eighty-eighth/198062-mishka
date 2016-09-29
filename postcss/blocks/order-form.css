@@ -1,0 +1,72 @@
+.order-form__fieldset {
+  padding: 0;
+  margin: 0;
+  font-size: $order-form-fontsize;
+  font-weight: 700;
+  border: none;
+}
+
+.order-form__legend {
+  margin-bottom: 25px;
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+.order-form__label {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 160px;
+}
+
+.order-form__radiobutton {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.order-form__checkbox {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.order-form__personal-input::placeholder,
+.order-form__phone-input::placeholder,
+.order-form__email-input::placeholder,
+.order-form__message-textarea::placeholder {
+  color: $basic-color;
+}
+
+.order-form__personal-input,
+.order-form__phone-input,
+.order-form__email-input {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: $normal;
+  border: none;
+  border-bottom: $btn-border;
+}
+
+.order-form__message-textarea {
+  height: 140px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: $normal;
+  border: $btn-border;
+  resize: none;
+}
+
+.order-form__required-warning {
+  font-size: 13.5px;
+}
+
+.order-form__submit {
+  @mixin btn;
+  width: 100%;
+  margin-top: 20px;
+  border: $btn-border;
+  color: $basic-color;
+  background-color: #ffffff;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.size-form__title {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: $size-form-title-fontsize;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.size-form__subtitle {
+  display: block;
+  text-align: center;
+  color: $basic-color;
+}
+
+.size-form__input {
+  margin: 0 auto;
+}
+
+.size-form__send {
+  @mixin btn;
+  width: 100%;
+  font-size: 17px;
+  background-color: #63d1bb;
+  color: #ffffff;
+  border: none;
+}

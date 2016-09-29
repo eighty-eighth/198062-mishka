@@ -1,0 +1,8 @@
+.banner-wrapper {
+  height: 282px;
+  padding-top: 70px;
+  box-sizing: border-box;
+  background-image: url("../img/hero-mobile.jpg");
+  background-size: cover;
+  background-position-y: 20%;
+}

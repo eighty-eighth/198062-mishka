@@ -1,0 +1,14 @@
+.page-header {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ececec;
+  outline: $outline;
+}
+
+.page-header__logo {
+  width: 86px;
+  height: 35px;
+  margin: 0 auto;
+}

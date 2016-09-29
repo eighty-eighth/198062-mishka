@@ -1,0 +1,25 @@
+.comments {
+  padding: 30px;
+  font-size: 0;
+  outline: $outline;
+}
+
+.comments__title {
+  margin: 0;
+  font-size: $comments-title-fontsize;
+}
+
+.comments__switch-button {
+  width: 50%;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  cursor: pointer;
+}
+
+.comments__feedback-btn {
+  @mixin btn;
+  margin-top: 38px;
+  border: $btn-border;
+  color: $basic-color;
+}

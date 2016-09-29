@@ -1,0 +1,24 @@
+.main-nav__list {
+  padding: 0;
+  font-size: $main-nav-fontsize;
+  font-weight: 700;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding: 30px 0;
+  border-top: 1px solid #ececec;
+}
+
+.main-nav__link {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
