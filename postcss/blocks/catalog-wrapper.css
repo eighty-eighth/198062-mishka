@@ -1,4 +1,4 @@
 .catalog-wrapper {
-  outline: $outline;
   padding: 30px;
+  outline: $outline;
 }

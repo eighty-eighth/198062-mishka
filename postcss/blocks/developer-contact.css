@@ -3,7 +3,7 @@
 }
 
 .developer-contact__text {
-  font-family: $bold;
-  font-size: 19px;
+  font-weight: 700;
+  font-size: $developer-contact-fontsize;
   font-style: normal;
 }

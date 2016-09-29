@@ -4,45 +4,47 @@
 }
 
 .week-product__title {
-  font-size: 25px;
-  line-height: 30px;
   margin: 0;
+  font-size: $week-product-title-fontsize;
+  line-height: 30px;
   text-align: left;
-  font-family: $bold;
+  font-weight: 700;
 }
 
 .week-product__category-title {
-  font-size: 17px;
-  color: #63d1bb;
+  font-size: $week-product-category-title-fontsize;
   text-align: left;
-  font-family: $bold;
+  font-weight: 700;
+  color: #63d1bb;
 }
 
 .week-product__description {
-  color: $grey;
+  color: $basic-color;
 }
 
 .week-product__options-table {
-  color: $grey;
   width: 100%;
-  border-collapse: collapse;
   margin-bottom: 28px;
+  color: $basic-color;
+  border-collapse: collapse;
 }
 
 .week-product__options-table__cell {
-  border-bottom: 1px solid #ececec;
   padding: 10px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .week-product__item-price {
-  font-size: 17px;
-  color: $grey;
-  font-family: $bold;
   display: block;
+  font-size: $week-product-price-fontsize;
+  font-weight: 700;
   text-align: center;
+  color: $basic-color;
 }
 
 .week-product__order {
   @mixin btn;
   margin-top: 25px;
+  border: $btn-border;
+  color: $basic-color;
 }

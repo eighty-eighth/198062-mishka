@@ -1,12 +1,12 @@
 .comments {
-  outline: $outline;
   padding: 30px;
   font-size: 0;
+  outline: $outline;
 }
 
 .comments__title {
   margin: 0;
-  font-size: 25px;
+  font-size: $comments-title-fontsize;
 }
 
 .comments__switch-button {
@@ -20,4 +20,6 @@
 .comments__feedback-btn {
   @mixin btn;
   margin-top: 38px;
+  border: $btn-border;
+  color: $basic-color;
 }

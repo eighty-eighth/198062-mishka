@@ -1,21 +1,21 @@
 .order-form__fieldset {
-  border: none;
   padding: 0;
   margin: 0;
-  font-size: 17px;
-  font-family: $bold;
+  font-size: $order-form-fontsize;
+  font-weight: 700;
+  border: none;
 }
 
 .order-form__legend {
+  margin-bottom: 25px;
   color: #63d1bb;
   text-transform: uppercase;
-  margin-bottom: 25px;
 }
 
 .order-form__label {
-  width: 160px;
   display: inline-block;
   margin-bottom: 40px;
+  width: 160px;
 }
 
 .order-form__radiobutton {
@@ -28,40 +28,33 @@
   margin-right: 35px;
 }
 
-.order-form__personal-input::-webkit-input-placeholder,
-.order-form__phone-input::-webkit-input-placeholder,
-.order-form__email-input::-webkit-input-placeholder,
-.order-form__message-textarea::-webkit-input-placeholder {
-  color: $grey;
-}
-
-.order-form__personal-input:-moz-placeholder,
-.order-form__phone-input:-moz-placeholder,
-.order-form__email-input:-moz-placeholder,
-.order-form__message-textarea:-moz-placeholder {
-  color: $grey;
+.order-form__personal-input::placeholder,
+.order-form__phone-input::placeholder,
+.order-form__email-input::placeholder,
+.order-form__message-textarea::placeholder {
+  color: $basic-color;
 }
 
 .order-form__personal-input,
 .order-form__phone-input,
 .order-form__email-input {
-  border: none;
-  border-bottom: $btn-border;
   height: 50px;
   width: 100%;
   margin-bottom: 30px;
   font-family: $normal;
+  border: none;
+  border-bottom: $btn-border;
 }
 
 .order-form__message-textarea {
   height: 140px;
   width: 100%;
-  border: $btn-border;
-  box-sizing: border-box;
-  padding: 15px;
-  resize: none;
-  font-family: $normal;
   margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: $normal;
+  border: $btn-border;
+  resize: none;
 }
 
 .order-form__required-warning {
@@ -71,7 +64,9 @@
 .order-form__submit {
   @mixin btn;
   width: 100%;
-  background-color: #ffffff;
   margin-top: 20px;
+  border: $btn-border;
+  color: $basic-color;
+  background-color: #ffffff;
   cursor: pointer;
 }

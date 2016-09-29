@@ -4,20 +4,20 @@
 }
 
 .aboutus-block__title {
-  font-size: 25px;
   margin: 0;
+  font-size: $aboutus-block-title-fontsize;
 }
 
 .aboutus-block__list {
   padding: 0;
+  font-weight: 700;
   list-style: none;
-  font-family: $bold;
 }
 
 .aboutus-block__item {
-  font-size: 17px;
-  font-family: $bold;
   padding-top: 80px;
+  font-size: $aboutus-block-item-fontsize;
+  font-weight: 700;
 
   &--flower,
   &--heart {

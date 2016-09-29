@@ -1,11 +1,9 @@
 @define-mixin btn {
-  border: $btn-border;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: $grey;
-  font-family: $bold;
   display: block;
   padding: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }

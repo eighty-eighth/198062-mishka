@@ -1,8 +1,8 @@
 .page-title {
-  font-family: $bold;
-  font-size: 27px;
   width: 245px;
   margin: 0 auto;
+  font-weight: 700;
+  font-size: $page-title-fontsize;
   text-align: center;
   line-height: 30px;
 
@@ -10,7 +10,7 @@
   &--form {
     padding-top: 71px;
     padding-bottom: 71px;
-    background-color: #f1f1f1;
     width: auto;
+    background-color: #f1f1f1;
   }
 }

@@ -1,7 +1,24 @@
 $outline: 1px solid red;
-
+/**/
 $basic-fontsize: 15px;
+$page-title-fontsize: 27px;
+$aboutus-block-title-fontsize: 25px;
+$aboutus-block-item-fontsize: 17px;
+$comments-title-fontsize: 25px;
+$comment-name-fontsize: 18px;
+$contactst-title-fontsize: 18px;
+$developer-contact-fontsize: 19px;
+$main-nav-fontsize: 17px;
+$order-description-fontsize: 17px;
+$order-form-fontsize: 17px;
+$product-title-fontsize: 17px;
+$product-description-fontsize: 17px;
+$video-block-title-fontsize: 17px;
+$video-block-description-fontsize: 13px;
+$size-form-title-fontsize: 25px;
+$week-product-title-fontsize: 25px;
+$week-product-category-title-fontsize: 17px;
+$week-product-price-fontsize: 17px;
+
 $btn-border: 2px solid #444444;
-$bold: "opensansbold";
-$normal: "opensans";
-$grey: #444444;
+$basic-color: #444444;
