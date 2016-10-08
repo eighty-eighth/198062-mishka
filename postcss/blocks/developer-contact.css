@@ -7,3 +7,9 @@
   font-size: $developer-contact-fontsize;
   font-style: normal;
 }
+
+@media (min-width: 768px) {
+  .developer-contact {
+    padding: 0;
+  }
+}

@@ -23,3 +23,29 @@
   border: $btn-border;
   color: $basic-color;
 }
+
+@media (min-width: 768px) {
+  .comments {
+    display: flex;
+    min-height: 457px;
+    background-image: url("../img/review.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .comments__title {
+    font-size: $comments-title-tablet-fontsize;
+    align-self: flex-start;
+  }
+
+  .comments__switch-button {
+    align-self: flex-end;
+  }
+
+  .comments__feedback-btn {
+    align-self: flex-start;
+  }
+}

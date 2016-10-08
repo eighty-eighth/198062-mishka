@@ -14,3 +14,17 @@
     background-color: #f1f1f1;
   }
 }
+
+@media (min-width: 768px) {
+  .page-title {
+    font-size: $page-title-tabl-fontsize;
+    width: 510px;
+    line-height: 50px;
+    padding-top: 65px;
+
+    &--catalog,
+    &--form {
+      width: auto;
+    }
+  }
+}

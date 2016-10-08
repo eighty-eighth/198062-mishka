@@ -5,7 +5,7 @@
 
 .contacts__title {
   padding: 30px;
-  font-size: $contactst-title-fontsize;
+  font-size: $contacts-title-fontsize;
   font-weight: 700;
 }
 
@@ -39,4 +39,72 @@
   margin-top: 38px;
   border: $btn-border;
   color: $basic-color;
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts__title {
+    font-size: $contacts-title-tablet-fontsize;
+  }
+
+  .contacts__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: $contacts-list-tablet-fontsize;
+  }
+
+  .contacts__list-item--address {
+    font-size: 0;
+  }
+
+  .contacts__list-item-name--address {
+    display: inline-block;
+    vertical-align: top;
+    font-size: $contacts-list-tablet-fontsize;
+  }
+
+  .contacts__list-item-text {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+    font-size: $contacts-list-tablet-fontsize;
+  }
+
+  .contacts__map {
+    background-image: url("../../img/map-tablet.jpg");
+  }
+
+  .contacts__feedback-btn {
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts {
+    min-height: 620px;
+    position: relative;
+  }
+
+  .contacts__list {
+    order: 1;
+    flex-direction: column;
+  }
+
+  .contacts__map {
+    position: absolute;
+    width: 450px;
+    order: 3;
+    align-self: flex-end;
+  }
+
+  .contacts__feedback-btn {
+    order: 2;
+    margin: 0;
+  }
 }

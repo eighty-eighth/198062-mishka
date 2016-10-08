@@ -10,3 +10,10 @@
 .social-list__item {
   display: inline;
 }
+
+@media (min-width: 768px) {
+  .social-list {
+    border: none;
+    padding: 0;
+  }
+}

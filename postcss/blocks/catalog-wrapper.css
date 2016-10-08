@@ -2,3 +2,20 @@
   padding: 30px;
   outline: $outline;
 }
+
+@media (min-width: 768px) {
+  .catalog-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1150px) {
+  .catalog-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
