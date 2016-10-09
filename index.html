@@ -9,25 +9,27 @@
 <body>
   <!-- HEADER-START -->
   <header class="page-header">
-    <div class="page-header__logo">
-      <img class="page-header__logo-img" src="img/logo.png" alt="Mishka" width="86" height="35">
+    <div class="page-header__elements-wrapper">
+      <div class="page-header__logo">
+        <img class="page-header__logo-img" src="img/logo.png" alt="Mishka" width="86" height="35">
+      </div>
+      <button class="main-nav__toggle" type="button">
+        <img class="main-nav__icon" src="img/hamburger.png" alt="Меню" width="20" height="14">
+      </button>
+      <ul class="main-nav  main-nav--grey">
+        <li class="main-nav__item  main-nav__item--border"><a class="main-nav__link" href="catalog.html">Каталог товаров</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="form.html">Вязание на заказ</a></li>
+      </ul>
+      <ul class="main-nav  main-nav--desktop">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Новые поступления</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Распродажа</a></li>
+      </ul>
+      <ul class="main-nav  main-nav--user">
+        <li class="main-nav__item  main-nav__item--search"><a class="main-nav__link  main-nav__link--search" href="#">Поиск по сайту</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Корзина: пока пуста</a></li>
+      </ul>
+      <span class="page-header__text">Бесплатная доставка по России</span>
     </div>
-    <button class="main-nav__toggle" type="button">
-      <img class="main-nav__icon" src="img/hamburger.png" alt="Меню" width="20" height="14">
-    </button>
-    <ul class="main-nav  main-nav--grey">
-      <li class="main-nav__item  main-nav__item--border"><a class="main-nav__link" href="catalog.html">Каталог товаров</a></li>
-      <li class="main-nav__item"><a class="main-nav__link" href="form.html">Вязание на заказ</a></li>
-    </ul>
-    <ul class="main-nav  main-nav--desktop">
-      <li class="main-nav__item"><a class="main-nav__link" href="#">Новые поступления</a></li>
-      <li class="main-nav__item"><a class="main-nav__link" href="#">Распродажа</a></li>
-    </ul>
-    <ul class="main-nav  main-nav--user">
-      <li class="main-nav__item  main-nav__item--search"><a class="main-nav__link  main-nav__link--search" href="#">Поиск по сайту</a></li>
-      <li class="main-nav__item"><a class="main-nav__link" href="#">Корзина: пока пуста</a></li>
-    </ul>
-    <span class="page-header__text">Бесплатная доставка по России</span>
   </header>
   <!-- HEADER-END -->
 
@@ -40,12 +42,14 @@
     </div>
     <!-- catalog-links-start -->
     <div class="catalog-links">
-      <a class="catalog-links__item  catalog-links__item--light" href="#">
-        <h2 class="catalog-links__title">Предметы интерьера</h2>
-      </a>
-      <a class="catalog-links__item  catalog-links__item--dark" href="#">
-        <h2 class="catalog-links__title">Детские игрушки</h2>
-      </a>
+      <div class="catalog-links__item-wrapper">
+        <a class="catalog-links__item  catalog-links__item--light" href="#">
+          <h2 class="catalog-links__title">Предметы интерьера</h2>
+        </a>
+        <a class="catalog-links__item  catalog-links__item--dark" href="#">
+          <h2 class="catalog-links__title">Детские игрушки</h2>
+        </a>
+      </div>
     </div>
     <!-- catalog-links-end -->
 
@@ -148,24 +152,26 @@
 
   <!-- FOOTER-START -->
   <footer class="page-footer">
-    <div class="footer-logo">
-      <img class="footer-logo__image" src="img/logo.png" alt="Mishka" width="86" height="35">
+    <div class="page-footer__wrapper">
+      <div class="footer-logo">
+        <img class="footer-logo__image" src="img/logo.png" alt="Mishka" width="86" height="35">
+      </div>
+      <ul class="social-list">
+        <li class="social-list__item  social-list__item--insta">
+          <a class="social-list__link" href="#">Instagram</a>
+        </li>
+        <li class="social-list__item  social-list__item--facebook">
+          <a class="social-list__link" href="#">Facebook</a>
+        </li>
+        <li class="social-list__item  social-list__item--twitter">
+          <a class="social-list__link" href="#">Twitter</a>
+        </li>
+      </ul>
+      <address class="developer-contact">
+        <span class="developer-contact__text">Разработано</span>
+        <a class="developer-contact__link" href="#">HTML Academy</a>
+      </address>
     </div>
-    <ul class="social-list">
-      <li class="social-list__item  social-list__item--insta">
-        <a class="social-list__link" href="#">Instagram</a>
-      </li>
-      <li class="social-list__item  social-list__item--facebook">
-        <a class="social-list__link" href="#">Facebook</a>
-      </li>
-      <li class="social-list__item  social-list__item--twitter">
-        <a class="social-list__link" href="#">Twitter</a>
-      </li>
-    </ul>
-    <address class="developer-contact">
-      <span class="developer-contact__text">Разработано</span>
-      <a class="developer-contact__link" href="#">HTML Academy</a>
-    </address>
   </footer>
   <!-- FOOTER-END -->
   <div class="modal-window">

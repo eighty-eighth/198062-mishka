@@ -31,7 +31,9 @@
 
 @media (min-width: $tablet-width) {
   .video-block {
-    padding: 50px;
+    width: 670px;
+    padding: 50px 0;
+    margin: 0 auto;
   }
 
   .video-block__wrapper {
@@ -69,7 +71,8 @@
     position: relative;
     display: flex;
     justify-content: flex-end;
-    padding: 50px;
+    padding: 50px 0;
+    width: 1050px;
   }
 
   .video-block__wrapper {
@@ -89,7 +92,7 @@
 
   .video-block__content {
     position: absolute;
-    left: 50px;
+    left: 0;
     order: 1;
     width: 682px;
     min-height: 455px;
