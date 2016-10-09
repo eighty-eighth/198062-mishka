@@ -3,6 +3,8 @@ $outline: 1px solid red;
 $basic-fontsize: 15px;
 $page-title-fontsize: 27px;
 $page-title-tabl-fontsize: 43px;
+$page-header__text-color: #444444;
+$page-header__text-background: #f9f9f9;
 
 $main-nav-color: #e7e7e7;
 

@@ -1,4 +1,6 @@
 .comments {
+  box-sizing: border-box;
+  margin: 0 auto;
   padding: 30px;
   font-size: 0;
   outline: $outline;
@@ -47,5 +49,11 @@
 
   .comments__feedback-btn {
     align-self: flex-start;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .comments {
+    max-width: 1050px;
   }
 }

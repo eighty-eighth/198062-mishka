@@ -1,5 +1,6 @@
 .contacts {
   padding: 35px 0;
+  margin: 0 auto;
   outline: $outline;
 }
 
@@ -88,6 +89,8 @@
 @media (min-width: $desktop-width) {
   .contacts {
     position: relative;
+    width: 100%;
+    max-width: 1050px;
     min-height: 620px;
   }
 
