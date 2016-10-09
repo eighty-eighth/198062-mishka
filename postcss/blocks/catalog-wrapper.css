@@ -3,7 +3,7 @@
   outline: $outline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .catalog-wrapper {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .catalog-wrapper {
     flex-direction: row;
     justify-content: space-between;

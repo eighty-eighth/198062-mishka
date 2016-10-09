@@ -1,5 +1,5 @@
 .page-title {
-  width: 245px;
+  width: 250px;
   margin: 0 auto;
   font-weight: 700;
   font-size: $page-title-fontsize;
@@ -8,19 +8,19 @@
 
   &--catalog,
   &--form {
+    width: auto;
     padding-top: 71px;
     padding-bottom: 71px;
-    width: auto;
     background-color: #f1f1f1;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .page-title {
-    font-size: $page-title-tabl-fontsize;
     width: 510px;
-    line-height: 50px;
     padding-top: 65px;
+    font-size: $page-title-tabl-fontsize;
+    line-height: 50px;
 
     &--catalog,
     &--form {

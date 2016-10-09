@@ -41,7 +41,7 @@
   color: $basic-color;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .contacts {
     display: flex;
     flex-direction: column;
@@ -85,22 +85,22 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .contacts {
-    min-height: 620px;
     position: relative;
+    min-height: 620px;
   }
 
   .contacts__list {
-    order: 1;
     flex-direction: column;
+    order: 1;
   }
 
   .contacts__map {
     position: absolute;
-    width: 450px;
     order: 3;
     align-self: flex-end;
+    width: 450px;
   }
 
   .contacts__feedback-btn {

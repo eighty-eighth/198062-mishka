@@ -17,12 +17,12 @@
 }
 
 .catalog-links__title {
-  width: 105px;
+  width: 140px;
   margin: 0;
   line-height: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .catalog-links {
     display: flex;
     padding: 0 50px;

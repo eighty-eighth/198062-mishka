@@ -17,7 +17,7 @@
   color: $basic-color;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
 
   .comment__text {
     font-size: $comment-text-tablet-fontsize;

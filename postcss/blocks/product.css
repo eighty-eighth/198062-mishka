@@ -1,4 +1,6 @@
 .product {
+  width: 260px;
+  margin: 0 auto;
   border: 1px solid #ececec;
 }
 
@@ -25,11 +27,11 @@
   border-top: 1px solid #ececec;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .product {
     display: flex;
     width: 668px;
-    height: 335px;
+    min-height: 335px;
   }
 
   .product__img {
@@ -43,7 +45,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .product {
     flex-direction: column;
     justify-content: space-between;
@@ -58,8 +60,8 @@
   }
 
   .product__description-wrapper {
-    min-height: 195px;
     box-sizing: border-box;
+    min-height: 195px;
     padding: 25px;
   }
 

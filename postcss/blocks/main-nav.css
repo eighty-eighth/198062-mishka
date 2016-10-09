@@ -11,7 +11,7 @@
 
 .main-nav__item {
   padding: 30px 0;
-  border-top: 1px solid #e7e7e7;
+  border-top: 1px solid $main-nav-color;
 }
 
 .main-nav__link {
@@ -27,7 +27,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .main-nav {
     display: flex;
     order: 3;
@@ -45,10 +45,10 @@
     }
 
     &--grey {
-      background-color: #f9f9f9;
       padding-left: 50px;
-      border-top: 1px solid #e7e7e7;
       box-sizing: border-box;
+      background-color: #f9f9f9;
+      border-top: 1px solid $main-nav-color;
     }
   }
 
@@ -57,8 +57,8 @@
     border: 0;
 
     &--search {
-      border-left: 1px solid #e7e7e7;
-      border-right: 1px solid #e7e7e7;
+      border-left: 1px solid $main-nav-color;
+      border-right: 1px solid $main-nav-color;
     }
   }
 
@@ -71,7 +71,7 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: $desktop-width) {
   .main-nav {
     width: auto;
     justify-content: space-around;
@@ -79,14 +79,14 @@
     &--desktop {
       display: flex;
       order: 4;
-      background-color: #f9f9f9;
       width: 50%;
+      background-color: #f9f9f9;
     }
 
     &--grey {
       order: 1;
-      background-color: #ffffff;
       width: 39%;
+      background-color: #ffffff;
     }
 
     &--user {
@@ -95,6 +95,6 @@
   }
 
   .main-nav__item--border {
-    border-right: 1px solid #e7e7e7;
+    border-right: 1px solid $main-nav-color;
   }
 }

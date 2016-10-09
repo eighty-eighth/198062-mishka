@@ -3,32 +3,47 @@ $outline: 1px solid red;
 $basic-fontsize: 15px;
 $page-title-fontsize: 27px;
 $page-title-tabl-fontsize: 43px;
+
+$main-nav-color: #e7e7e7;
+
 $aboutus-block-title-fontsize: 25px;
 $aboutus-block-title-tablet-fontsize: 43px;
 $aboutus-block-item-fontsize: 17px;
+
 $comments-title-fontsize: 25px;
 $comments-title-tablet-fontsize: 43px;
 $comment-name-fontsize: 18px;
 $comment-name-tablet-fontsize: 17px;
 $comment-link-tablet-fontsize: 17px;
 $comment-text-tablet-fontsize: 17px;
+
 $contacts-title-fontsize: 18px;
 $contacts-title-tablet-fontsize: 43px;
 $contacts-list-tablet-fontsize: 17px;
+
 $developer-contact-fontsize: 19px;
+
 $main-nav-fontsize: 17px;
 $order-description-fontsize: 17px;
 $order-form-fontsize: 17px;
+
 $product-title-fontsize: 17px;
 $product-description-fontsize: 17px;
+
 $video-block-title-fontsize: 17px;
 $video-block-description-fontsize: 13px;
+
 $size-form-title-fontsize: 25px;
+
 $week-product-title-fontsize: 25px;
-$week-product-title-desktop-fontsize: 43px;
+$week-product-title-tablet-fontsize: 43px;
+$week-product-title-desktop-fontsize: 53px;
 $week-product-description-desktop-fontsize: 17px;
 $week-product-category-title-fontsize: 17px;
 $week-product-price-fontsize: 17px;
 
 $btn-border: 2px solid #444444;
 $basic-color: #444444;
+
+$tablet-width: 768px;
+$desktop-width: 1150px;
