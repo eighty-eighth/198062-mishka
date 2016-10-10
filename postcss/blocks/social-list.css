@@ -8,5 +8,12 @@
 }
 
 .social-list__item {
-  display: inline;
+  display: inline-block;
+}
+
+@media ($tablet-width) {
+  .social-list {
+    padding: 0;
+    border: none;
+  }
 }

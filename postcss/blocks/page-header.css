@@ -12,3 +12,64 @@
   height: 35px;
   margin: 0 auto;
 }
+
+.page-header__text {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    padding: 0;
+    background: linear-gradient(to bottom,
+                rgba(255,255,255,1) 0%,
+                rgba(255,255,255,1) 50%,
+                rgba(249,249,249,1) 50%,
+                rgba(249,249,249,1) 100%);
+  }
+
+  .page-header__elements-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 670px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+
+  .page-header__logo {
+    align-self: center;
+    order: 1;
+    width: 113px;
+    height: 46px;
+    margin: 0;
+    padding-left: 50px;
+  }
+
+  .page-header__text {
+    order: 4;
+    display: block;
+    width: 50%;
+    line-height: 83px;
+    background-color: $page-header__text-background;
+    border-top: 1px solid #ececec;
+    color: $page-header__text-color;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__elements-wrapper {
+    width: 100%;
+    min-width: 1050px;
+  }
+
+  .page-header__logo {
+    order: 2;
+  }
+
+  .page-header__text {
+    order: 5;
+  }
+}

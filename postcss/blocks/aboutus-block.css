@@ -1,4 +1,6 @@
 .aboutus-block {
+  box-sizing: border-box;
+  margin: 0 auto;
   padding: 30px;
   outline: $outline;
 }
@@ -19,6 +21,10 @@
   font-size: $aboutus-block-item-fontsize;
   font-weight: 700;
 
+  &--rocket {
+    width: 265px;
+  }
+
   &--flower,
   &--heart {
     width: 185px;
@@ -28,5 +34,33 @@
   &--rope,
   &--gift {
     width: 215px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .aboutus-block {
+    padding-left: 50px;
+  }
+
+  .aboutus-block__title {
+    font-size: $aboutus-block-title-tablet-fontsize;
+  }
+
+  .aboutus-block__list {
+    column-count: 2;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .aboutus-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1050px;
+  }
+
+  .aboutus-block__title {
+    margin-right: 305px;
   }
 }

@@ -38,27 +38,29 @@
 .order-form__personal-input,
 .order-form__phone-input,
 .order-form__email-input {
-  height: 50px;
   width: 100%;
   margin-bottom: 30px;
-  font-family: $normal;
+  padding: 12px 0;
   border: none;
   border-bottom: $btn-border;
 }
 
 .order-form__message-textarea {
-  height: 140px;
+  min-height: 140px;
   width: 100%;
   margin-bottom: 15px;
   padding: 15px;
   box-sizing: border-box;
-  font-family: $normal;
   border: $btn-border;
   resize: none;
 }
 
 .order-form__required-warning {
-  font-size: 13.5px;
+  font-size: 14px;
+
+  &--tablet {
+    display: none;
+  }
 }
 
 .order-form__submit {
@@ -69,4 +71,156 @@
   color: $basic-color;
   background-color: #ffffff;
   cursor: pointer;
+}
+
+
+@media (min-width: $tablet-width) {
+  .order-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .order-form__legend {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-325px);
+  }
+
+  .order-form__fieldset {
+    position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    &--color {
+      background-color: #f1f1f1;
+    }
+
+    &--mail-phone {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end;
+      background-color: #f1f1f1;
+    }
+
+    &--message {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end;
+      padding-top: 60px;
+    }
+  }
+
+  .order-form__fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 670px;
+    margin: 0 auto;
+    padding-left: 167px;
+    box-sizing: border-box;
+
+    &--color {
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding-right: 40px;
+    }
+
+    &--personal {
+      align-items: flex-start;
+    }
+  }
+
+  .order-form__fields {
+    display: flex;
+
+    &--personal {
+      align-items: baseline;
+      width: 500px;
+    }
+  }
+
+  .order-form__phone-input,
+  .order-form__email-input {
+    background-color: #f1f1f1;
+    width: 500px;
+  }
+
+  .order-form__message-textarea {
+    width: 500px;
+  }
+
+  .order-form__submit-wrapper {
+    display: flex;
+    align-items: baseline;
+    align-self: center;
+    justify-content: space-between;
+    width: 670px;
+    padding-bottom: 50px;
+  }
+
+  .order-form__required-warning {
+    display: none;
+
+    &--tablet {
+      display: block;
+      order: 2;
+    }
+  }
+
+  .order-form__submit {
+    order: 1;
+    width: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .order-form__fieldset {
+    &--mail-phone,
+    &--message {
+      justify-content: flex-start;
+    }
+  }
+
+  .order-form__legend {
+    transform: translateX(-435px);
+  }
+
+  .order-description {
+    box-sizing: border-box;
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+    margin: 0 auto;
+  }
+
+  .order-form__fields-wrapper {
+    align-items: flex-start;
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+
+    &--color {
+      justify-content: flex-start;
+      margin: 0 auto;
+    }
+  }
+
+  .order-form__fields {
+    width: 700px;
+  }
+
+  .order-form__phone-input,
+  .order-form__email-input,
+  .order-form__message-textarea {
+    width: 700px;
+  }
+
+  .order-form__submit-wrapper {
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+    box-sizing: border-box;
+    align-self: center;
+  }
 }

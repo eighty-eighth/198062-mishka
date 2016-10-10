@@ -16,3 +16,18 @@
   line-height: 30px;
   color: $basic-color;
 }
+
+@media (min-width: $tablet-width) {
+
+  .comment__text {
+    font-size: $comment-text-tablet-fontsize;
+  }
+
+  .comment__name {
+    font-size: $comment-name-tablet-fontsize;
+  }
+
+  .comment__link {
+    font-size: $comment-link-tablet-fontsize;
+  }
+}

@@ -3,3 +3,9 @@
   padding-top: 0;
   outline: $outline;
 }
+
+@media (min-width: $tablet-width) {
+  .order-form-wrapper {
+    padding: 0;
+  }
+}
