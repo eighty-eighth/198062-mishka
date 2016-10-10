@@ -103,18 +103,24 @@
         </fieldset>
 
         <div class="order-form__fieldset  order-form__fieldset--mail-phone">
-          <label class="order-form__legend" for="phone">Тел</label>
-          <input class="order-form__phone-input" type="tel" id="phone" name="phone" placeholder="+7 ХХХ ХХ ХХ">
+          <div class="order-form__fields-wrapper">
+            <label class="order-form__legend" for="phone">Тел</label>
+            <input class="order-form__phone-input" type="tel" id="phone" name="phone" placeholder="+7 ХХХ ХХ ХХ">
+          </div>
         </div>
 
         <div class="order-form__fieldset  order-form__fieldset--mail-phone">
-          <label class="order-form__legend" for="mail">E-mail</label>
-          <input class="order-form__email-input" type="email" id="mail" name="mail" placeholder="Ваш Email">
+          <div class="order-form__fields-wrapper">
+            <label class="order-form__legend" for="mail">E-mail</label>
+            <input class="order-form__email-input" type="email" id="mail" name="mail" placeholder="Ваш Email">
+          </div>
         </div>
 
         <div class="order-form__fieldset  order-form__fieldset--message">
-          <label class="order-form__legend" for="message">Доп</label>
-          <textarea class="order-form__message-textarea" id="message" name="order-message" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          <div class="order-form__fields-wrapper">
+            <label class="order-form__legend" for="message">Доп</label>
+            <textarea class="order-form__message-textarea" id="message" name="order-message" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+          </div>
         </div>
         <div class="order-form__submit-wrapper">
           <span class="order-form__required-warning">Все поля обязательны для заполнения</span>

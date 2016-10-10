@@ -5,3 +5,19 @@
   line-height: 24px;
   color: $basic-color;
 }
+
+@media (min-width: $tablet-width) {
+  .order-description {
+    box-sizing: border-box;
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .order-description {
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+}

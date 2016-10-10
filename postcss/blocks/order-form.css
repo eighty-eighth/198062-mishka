@@ -80,6 +80,12 @@
     flex-direction: column;
   }
 
+  .order-form__legend {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-325px);
+  }
+
   .order-form__fieldset {
     position: relative;
     padding-right: 50px;
@@ -104,26 +110,24 @@
     }
   }
 
-  .order-form__legend {
-    position: absolute;
-    left: 50px;
-  }
-
   .order-form__fields-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 670px;
+    margin: 0 auto;
+    padding-left: 167px;
+    box-sizing: border-box;
 
     &--color {
       flex-direction: row;
+      justify-content: flex-start;
       flex-wrap: wrap;
-      justify-content: center;
-      width: 435px;
-      margin: 0 auto;
+      padding-right: 40px;
     }
 
     &--personal {
-      align-items: flex-end;
+      align-items: flex-start;
     }
   }
 
@@ -149,10 +153,9 @@
   .order-form__submit-wrapper {
     display: flex;
     align-items: baseline;
-    align-self: flex-end;
+    align-self: center;
     justify-content: space-between;
-    width: 500px;
-    padding-right: 50px;
+    width: 670px;
     padding-bottom: 50px;
   }
 
@@ -173,22 +176,33 @@
 
 @media (min-width: $desktop-width) {
   .order-form__fieldset {
-    padding-left: 215px;
-    padding-right: 215px;
-
     &--mail-phone,
     &--message {
       justify-content: flex-start;
     }
   }
 
+  .order-form__legend {
+    transform: translateX(-435px);
+  }
+
+  .order-description {
+    box-sizing: border-box;
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+    margin: 0 auto;
+  }
+
   .order-form__fields-wrapper {
     align-items: flex-start;
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
 
     &--color {
       justify-content: flex-start;
-      width: 635px;
-      margin: 0;
+      margin: 0 auto;
     }
   }
 
@@ -203,8 +217,10 @@
   }
 
   .order-form__submit-wrapper {
-    align-self: flex-start;
-    width: 700px;
-    padding-left: 215px;
+    width: 1050px;
+    padding-left: 175px;
+    padding-right: 175px;
+    box-sizing: border-box;
+    align-self: center;
   }
 }
