@@ -62,5 +62,6 @@
 
   .aboutus-block__title {
     margin-right: 305px;
+    font-size: $aboutus-block-title-desktop-fontsize;
   }
 }
